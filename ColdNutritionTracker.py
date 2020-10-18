@@ -9,7 +9,7 @@ WIDTH = 800
 creds = ServiceAccountCredentials.from_json_keyfile_name("creds.json", scope)
 client = gspread.authorize(creds)
 
-sh = client.open("Тренировки и Диета")
+sh = client.open("Diet and Trainings")
 sheet1 = sh.worksheet("Food 2020")
 dataSheet = sh.worksheet("Data")
 

@@ -12,8 +12,8 @@ This is a simple Python script that works with google sheets in order to feel up
   
  ## How to use script
  1. Make a cell range in the table with dates, that you are going to fill.
- 2. After running script fill the date, profuct and weight.
- 3. Check if the sheet is updeted
+ 2. After running script fill the date, product and weight.
+ 3. Check if the sheet is updated
  
  ## Dependencies
  - Python
